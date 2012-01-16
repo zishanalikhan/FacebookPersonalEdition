@@ -1,0 +1,10 @@
+******Created by zishan******
+
+How to use?
+Use your facebook login to fetch your facebook friends list and wall posts. Website will not store any facebook password or username. 
+
+Technicals:
+I used Facebook OPENGRAPH API and RestFB an open source Java API as Facebook do not provide any support for java. 
+It is based on pure JSP/Servlets implementation. 
+
+
