@@ -1,10 +1,22 @@
 ******Created by zishan******
 
-How to use?
+What it will do?
 Use your facebook login to fetch your facebook friends list and wall posts. Website will not store any facebook password or username. 
+
+How to use? (For new users, tomcat implementation)
+If you are using Tomcat under directory webapps create a subdirectory called 'myfacebookapp' (you can choose any name but please update your web.xml)
+create following directories under it - images, META-INF, WEB-INF and place index.html and result.jsp here. Then create two directories under WEB-INF 
+classes, lib and copy paste the web.xml under web-inf. create the proper directory sturcture under classes or compile with javac from prompt using -d swithch
+copy all libraties to lib folder. copy the image connectfacebook2.jpg to images folder.
+Please do not forget to include your APIKEY, SECRETKEY and REDIRECTURI to 'accessTokenRedirectServlet' and 'codeRedirectServlet'. Website will not work if 
+you will not supply the proper keys. If you dont know where to get these keys I suggest please go to facebook developers page and read the docs.
+Enjoy!!
 
 Technicals:
 I used Facebook OPENGRAPH API and RestFB an open source Java API as Facebook do not provide any support for java. 
 It is based on pure JSP/Servlets implementation. please note it is best viewed in google chrome and not tested in other browsers.
+RestFB do not provide any code for Authentication with facebook OAuth2.0 so I used smartam.leeloo client you can get the leeloo from 
+https://bitbucket.org/smartproject/oauth-2.0/wiki/Home.
 
-touch base with me on : zishanali707@gmail.com
+Contact me:
+Touch base with me on : zishanali707@gmail.com
