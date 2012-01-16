@@ -5,6 +5,6 @@ Use your facebook login to fetch your facebook friends list and wall posts. Webs
 
 Technicals:
 I used Facebook OPENGRAPH API and RestFB an open source Java API as Facebook do not provide any support for java. 
-It is based on pure JSP/Servlets implementation. 
+It is based on pure JSP/Servlets implementation. please note it is best viewed in google chrome and not tested in other browsers.
 
-
+touch base with me on : zishanali707@gmail.com

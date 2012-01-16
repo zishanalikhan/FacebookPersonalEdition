@@ -1,0 +1,44 @@
+<html>
+<head><title>My Facebook App</title></head>
+<style type="text/css">
+#outerContainer{ position: relative }
+#innerContainer{ position:absolute; top:70%; left:46%; height:10em; margin-top: 20em }
+body{
+background-image:url('images/connectfacebook2.jpg');
+background-repeat:no-repeat;
+background-position:center;
+}
+</style>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=YOUR_APPID_HERE";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div style="background-color: #3B5998">
+<div><span style="color:white; font-weight:bold">&nbsp;Facebook Personal Edition</span></div>
+</div>
+<div id="outerContainer">
+  <div id="innerContainer">    
+   <form method="GET" action="codered">
+     <input type="submit" style="background-color: transparent" value="login with facebook"/>
+  </form>    
+  </div>
+</div>
+
+<table height="97%" width="100%">
+<tr>
+<td valign="bottom">
+<span style="color:#3B5998; font-weight:bold">created by zishan</span>
+</td>
+<td align="right" valign="bottom">
+
+</td>
+</tr>
+</table>
+</body> 
+</html>
